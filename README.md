@@ -81,7 +81,7 @@ here: [FAQ](https://github.com/uklimaschewski/EvalEx/blob/master/FAQ.md)
  
  // Using pre-created BigDecimals for variables
  BigDecimal a = new BigDecimal("2.4");
- BigDecimal b = new BigDecimal("9.235");
+ BigDecimal b = new BigDecimal("9.253");
  result = new Expression("SQRT(a^2 + b^2)")
          .with("a", a)
          .and("b", b)
